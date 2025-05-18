@@ -1,0 +1,78 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyd
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+env/
+venv/
+.venv/
+ENV/
+
+# -----------------------------
+# Jupyter + Colab
+# -----------------------------
+.ipynb_checkpoints/
+*.ipynb_save
+*.nbconvert.ipynb
+
+# Colab mount
+/content/
+
+# -----------------------------
+# Logs / Outputs
+# -----------------------------
+*.log
+*.out
+*.tmp
+
+# -----------------------------
+# Checkpoints / Models
+# -----------------------------
+*.pth
+*.pt
+*.ckpt
+*.h5
+checkpoints/
+runs/
+lightning_logs/
+
+# -----------------------------
+# Datasets / Data
+# -----------------------------
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.zip
+*.xlsx
+
+# -----------------------------
+# Generated Images / Plots
+# -----------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# -----------------------------
+# System Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDE / Editor Stuff
+# -----------------------------
+.vscode/
+.idea/
+*.swp
